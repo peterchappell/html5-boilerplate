@@ -1,0 +1,22 @@
+// variables ------------------------
+@import "variables";
+
+// html5 boilerplate start ----------
+@import "html5boilerplate/start";
+
+// custom stuff ---------------------
+@import "mixins"; // my set of mixins that I lean on regularly
+@import "typography"; // a setup for baseline rhythm etc (in progress)
+@import "common"; // my own set of regularly used common styles
+@import "layout"; // for the custom stuff for a site
+
+// html5 boilerplate end ------------
+@import "html5boilerplate/helpers";
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+@import "html5boilerplate/print"; // use as base for print
+@import "print";
