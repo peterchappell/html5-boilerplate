@@ -10,13 +10,17 @@
 @import "common"; // my own set of regularly used common styles
 @import "layout"; // for the custom stuff for a site
 
-// html5 boilerplate end ------------
-@import "html5boilerplate/helpers";
+// responsive stuff
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
 }
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
 }
-@import "html5boilerplate/print"; // use as base for print
+
+// html5 boilerplate helpers and print
+@import "html5boilerplate/helpers";
+@import "html5boilerplate/print";
+
+// custom print
 @import "print";
