@@ -16,4 +16,4 @@ for a specific project.
 The real goodness is in the HTML5 Boilerplate project
 
 * http://html5boilerplate.com/
-* https://github.com/paulirish/html5-boilerplate
+* https://github.com/h5bp/html5-boilerplate
